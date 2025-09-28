@@ -12,11 +12,15 @@
 /* Flexbox Part 2 */
 
 #flex-section2 ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+    width: 100%;
 
 }
 
 #flex-section2 li {
-
+	flex: 1;
 }
 
 #flex-section2 .item1 {
