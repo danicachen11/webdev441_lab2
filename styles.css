@@ -70,17 +70,26 @@
 	grid-auto-rows: 100px;
 	gap: 20px;
 }
-
 /* end Grid Part 1 */
 
 
 /* Grid Part 2 */
 
 #grid-section2 .gridboxblue {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-column: 2/ 4;  
+	grid-row: 1 / 4;  
 
 }
 
 #grid-section2 .gridboxred {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-column: 1 / 3; 
+	grid-row: 2 / 3; 
 
 }
 
