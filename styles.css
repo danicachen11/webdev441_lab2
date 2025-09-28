@@ -4,6 +4,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
+	list-style: none;
 }
 
 /* end Flexbox Part 1 */
@@ -16,6 +17,7 @@
 	margin: 0;
 	padding: 0;
     width: 100%;
+	list-style: none;
 
 }
 
@@ -55,6 +57,7 @@
 	flex-wrap: wrap;           
 	padding: 0;
 	margin: 0;
+	list-style: none;
 
 
 }
