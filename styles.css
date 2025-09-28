@@ -56,7 +56,7 @@
 	padding: 0;
 	margin: 0;
 
-	
+
 }
 
 /* end Flexbox Part 3 */
@@ -65,7 +65,10 @@
 /* Grid Part 1 */
 
 #grid-section1 .grid {
-
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-auto-rows: 100px;
+	gap: 20px;
 }
 
 /* end Grid Part 1 */
